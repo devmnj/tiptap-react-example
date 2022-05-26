@@ -1,0 +1,42 @@
+{
+  "name": "tiptap-editor-react-example",
+  "version": "1.0.0",
+  "description": "This is Tiptap React example. ",
+  "keywords": [
+    "prosemirror",
+    "reactjs",
+    "editor",
+    "tiptap"
+  ],
+  "main": "src/index.js",
+  "dependencies": {
+    "@tiptap/core": "^2.0.0-beta.176",
+    "@tiptap/extension-bubble-menu": "^2.0.0-beta.56",
+    "@tiptap/extension-document": "^2.0.0-beta.15",
+    "@tiptap/extension-highlight": "^2.0.0-beta.33",
+    "@tiptap/extension-paragraph": "^2.0.0-beta.23",
+    "@tiptap/extension-text": "^2.0.0-beta.15",
+    "@tiptap/extension-text-align": "^2.0.0-beta.29",
+    "@tiptap/react": "2.0.0-beta.109",
+    "@tiptap/starter-kit": "2.0.0-beta.185",
+    "react": "18.0.0",
+    "react-dom": "18.0.0",
+    "react-scripts": "4.0.0"
+  },
+  "devDependencies": {
+    "@babel/runtime": "7.13.8",
+    "typescript": "4.1.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
